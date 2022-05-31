@@ -4,6 +4,4 @@ This repo decoments the code used for the experiments presented in the extended 
 
 Overview over the content:
 
-* utilities.jl: Containts implementations of basic functions like the reward as well as implementations of the solution of the Bellmann constrained program (BCP) proposed by Amato et. al. (see http://people.csail.mit.edu/camato/publications/OptimalPOMDP-aimath05.pdf) as well as the reward optimization in state-action space (ROSA), both relying on the interior point solver IPOpt (see https://coin-or.github.io/Ipopt/). Further, it contains code for the generation of random solvable mazes (see also https://rosettacode.org/wiki/Maze_generation) as well as code for the automated generation of the transition and observation matrices of the model.
-
-* 
+* utilities.jl: Contains implementations of basic functions like the reward as well as implementations of the solution of the Bellmann constrained program (BCP) proposed by Amato et. al. (see http://people.csail.mit.edu/camato/publications/OptimalPOMDP-aimath05.pdf) as well as the reward optimization in state-action space (ROSA), both relying on the interior point solver IPOpt (see https://coin-or.github.io/Ipopt/). Further, it contains code for the generation of random solvable mazes (see also https://rosettacode.org/wiki/Maze_generation) as well as code for the automated generation of the transition and observation matrices of the model.
