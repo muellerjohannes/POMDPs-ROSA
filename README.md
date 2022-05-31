@@ -1,5 +1,7 @@
 # Reward Optimization in State-Action space (ROSA)
 
+This repo decoments the code used for the experiments presented in the extended abstract *Solving infinite-horizon POMDPs with memoryless stochastic policies in state-action space* presented at RLDM 2022 (see https://arxiv.org/abs/2205.14098).
+
 We provide code, which solves POMDPs in state action space by solving the polynomially constrained optimization problem with linear objective associated to the POMDP. As a reference, we also implement Bellman constrained programming and apply L-BFGS directly to the reward function for tabular softmax policies.
 
 * In utilitiesGeneral.jl there are implementations of the infinite horizon discounted reward function, the tabular softmax parametrization and Bellman constrained programming (BCP). It requires the transition matrices of the POMDP, the discout factor, intitial distribution and instantatneous reward vector.
